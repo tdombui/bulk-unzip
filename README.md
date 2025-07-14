@@ -1,16 +1,11 @@
-# Bulk Unzip
+For bulk extracting ZIP files and stripping MP3 metadata with both CLI and GUI
 
-A powerful tool for bulk extracting ZIP files and stripping MP3 metadata with both CLI and GUI interfaces.
-
-## Features
-
-### ZIP Extraction
-- Bulk extract multiple ZIP files concurrently
+# Bulk extract ZIP files
 - Configurable number of workers for optimal performance
 - Skip existing directories to avoid overwrites
 - Progress tracking and detailed results
 
-### MP3 Metadata Stripping
+# MP3 Metadata Stripping
 - Remove all metadata from MP3 files
 - Keep specific metadata fields (title, artist, album, year, track, genre)
 - Process files in place or to a separate output directory
@@ -19,16 +14,10 @@ A powerful tool for bulk extracting ZIP files and stripping MP3 metadata with bo
 
 ## Usage
 
-### CLI Interface
+# CLI Interface
 
 The tool provides a command-line interface for both operations:
 
-```bash
-# Extract ZIP files
-cargo run -- unzip --directory /path/to/zips --output /path/to/extract --workers 4
-
-# Strip MP3 metadata
-cargo run -- strip --directory /path/to/mp3s --remove-all --workers 4
 ```
 
 ### GUI Interface (Tauri)
@@ -70,10 +59,10 @@ The GUI provides an intuitive interface with:
 
 ### Setup
 
-1. Clone the repository
+1. Clone repo
 2. Install Rust dependencies: `cargo build`
 3. Install Node.js dependencies: `npm install`
-4. Run the GUI: `cargo tauri dev`
+4. Run GUI: `cargo tauri dev`
 
 ## Development
 
