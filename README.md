@@ -10,7 +10,7 @@ For bulk extracting ZIP files and stripping MP3 metadata with both CLI and GUI
 - Keep specific metadata fields (title, artist, album, year, track, genre)
 - Process files in place or to a separate output directory
 - Skip files that already have no metadata
-- Dry run mode to preview changes
+- Dry run mode
 
 ## Usage
 
