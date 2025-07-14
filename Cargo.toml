@@ -1,0 +1,19 @@
+[package]
+name = "bulk_unzip"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zip = "0.6"
+tokio = { version = "1.0", features = ["full"] }
+futures = "0.3"
+rayon = "1.7"
+indicatif = "0.17"
+anyhow = "1.0"
+clap = { version = "4.0", features = ["derive"] }
+walkdir = "2.3"
+id3 = "1.7"
+mp3-duration = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tauri = { version = "2.0", features = ["shell-open"] } 
